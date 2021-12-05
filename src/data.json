@@ -1,0 +1,101 @@
+{
+    "cars":[
+        {
+            "_id":"car1",
+            "image":"/images/car1.jpg",
+            "brand" : "Toyota",
+            "description" : "2000 Toyota Land Cruiser",
+            "price" : 50000
+        },
+
+        {
+                "_id":"car2",
+                "image":"/images/car2.jpg",
+                "brand" : "Toyota",
+                "description" : "2009 Toyota FJ Cruiser",
+                "price" : 70000
+            },
+
+        {
+                "_id":"car3",
+                "image":"/images/car3.jpg",
+                "brand" : "Nissan",
+                "description" : "2014 Nissan 370Z",
+                "price" : 30000
+            },
+
+        {
+                "_id":"car4",
+                "image":"/images/car4.jpg",
+                "brand" : "Mercedes",
+                "description" : "2015 Mercedes-Benz C300 C 300 Sport",
+                "price" : 40000
+            },
+
+        {
+                "_id":"car5",
+                "image":"/images/car5.jpg",
+                "brand" : "Mercedes",
+                "description" : "2016 Mercedes-Benz AMG GT S",
+                "price" : 35000
+            },
+
+        {
+                "_id":"car6",
+                "image":"/images/car6.jpg",
+                "brand" : "Nissan",
+                "description" : "2017 Nissan GT-R Premium",
+                "price" : 40000
+            },
+
+        {
+                "_id":"car7",
+                "image":"/images/car7.jpg",
+                "brand" : "Mercedes",
+                "description" : "2018 Mercedes-Benz SL550",
+                "price" : 40000
+            },
+        
+        {
+                "_id":"car8",
+                "image":"/images/car8.jpg",
+                "brand" : "Nissan",
+                "description" : "2018 Nissan Rogue SV",
+                "price" : 50000
+            },
+
+        {
+                "_id":"car9",
+                "image":"/images/car9.jpg",
+                "brand" : "Toyota",
+                "description" : "2019 Toyota 4Runner TRD Off Road Premium blanc",
+                "price" : 80000
+            },
+
+        {
+                "_id":"car10",
+                "image":"/images/car10.jpg",
+                "brand" : "Toyota",
+                "description" : "2019 Toyota 4Runner TRD Off Road Premium rouge bordeau",
+                "price" : 80000
+            },
+
+        {
+                "_id":"car11",
+                "image":"/images/car11.jpg",
+                "brand" : "Mercedes",
+                "description" : "2020 Mercedes-Benz GLE350",
+                "price" : 50000
+            },
+
+        
+        {
+                "_id":"car12",
+                "image":"/images/car12.jpg",
+                "brand" : "Nissan",
+                "description" : "2020 Nissan GT-R NISMO",
+                "price" : 45000
+        }
+            
+    ]
+}

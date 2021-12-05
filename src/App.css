@@ -1,0 +1,105 @@
+.site {
+    min-height: 100vh;
+    margin-bottom: -40px;
+  }
+  
+  footer, .minSite{
+    height : 40px;
+    margin-top: 40px;
+  }
+  
+  
+  h4 {
+    display: inline;
+  }
+  
+  .product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .product-price div {
+    font-size: 1.5rem;
+  }
+  
+  .product-qty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  
+  .product-qty div {
+    font-size: 1rem;
+  }
+  
+
+  #cursor {
+    cursor: pointer;
+  }
+
+  .close-modal {
+    position: absolute;
+    right: 1.3rem;
+    top: 1rem;
+  }
+
+
+
+/* CSS */
+.button-53 {
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size:  20px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 2px solid green;
+  bottom: 5px;
+  left: 5px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  transition: all .3s ease-in-out;
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .2rem .3rem;
+    font-size: 1.3rem;
+  }
+
+  
+.product-price div {
+  font-size: 1rem;
+}
+}
+
+
+.font-size-16 {
+  font-size: 15px ;
+}
