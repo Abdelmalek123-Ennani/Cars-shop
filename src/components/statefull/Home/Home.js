@@ -36,6 +36,7 @@ class Home extends Component {
     sortVehicleHandler = (event) => {
         const sort = event.target.value;
 
+        // sort vehicles by their price
         this.setState({
             sort,
             cars : this.state.cars.sort((a,b) => (
@@ -55,6 +56,7 @@ class Home extends Component {
     }
 
 
+     // add a vehicle to the card
     addToCartHandler = (vehicle) => {
 
         const cartItems = this.state.cartItems;
